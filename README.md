@@ -1,5 +1,6 @@
 # IBM-Project-38149-1660373226
-Personal Expense Tracker Application
+
+PERSONAL EXPENSE TRACKER APPLICATION
 
 TEAM MEMBERS
 
