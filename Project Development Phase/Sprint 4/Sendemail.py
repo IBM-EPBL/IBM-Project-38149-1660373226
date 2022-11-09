@@ -9,13 +9,13 @@ def sendmail(TEXT,email):
     print("sorry we cant process your candidature")
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login("nandhini@gmail.com", "Nand@IBM")
+    s.login("yasarsardar3842@gmail.com", "Nand@IBM")
     message  = 'Subject: {}\n\n{}'.format(SUBJECT, TEXT)
-    s.sendmail("nandhini@gmail.com", email, message)
+    s.sendmail("yasarsardar3842@gmail.com", email, message)
     s.quit()
 def sendgridmail(user,TEXT):
   
-    from_email = Email("nandhini@gmail.com") 
+    from_email = Email("yasarsardar3842@gmail.com") 
     to_email = To(user) 
     subject = "Limit Message"
     content = Content("text/plain",TEXT)
