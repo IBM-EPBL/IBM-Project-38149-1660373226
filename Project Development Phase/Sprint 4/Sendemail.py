@@ -9,7 +9,7 @@ def sendmail(TEXT,email):
     print("sorry we cant process your candidature")
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login("yasarsardar3842@gmail.com", "Nand@IBM")
+    s.login("yasarsardar3842@gmail.com", "yasar@IBM")
     message  = 'Subject: {}\n\n{}'.format(SUBJECT, TEXT)
     s.sendmail("yasarsardar3842@gmail.com", email, message)
     s.quit()
